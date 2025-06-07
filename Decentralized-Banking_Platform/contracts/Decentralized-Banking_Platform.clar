@@ -115,7 +115,6 @@
     (ok amount)
   )
 )
-
 ;; Withdraw funds from account
 (define-public (withdraw (amount uint))
   (let ((caller tx-sender)

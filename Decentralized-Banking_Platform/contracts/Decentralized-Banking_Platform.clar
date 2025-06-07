@@ -83,7 +83,6 @@
       deposit-timestamp: current-time,
       is-active: true
     })
-    
     ;; Update total deposits
     (var-set total-deposits (+ (var-get total-deposits) initial-deposit))
     

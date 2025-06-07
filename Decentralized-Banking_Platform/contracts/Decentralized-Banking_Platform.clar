@@ -170,7 +170,6 @@
     (ok amount)
   )
 )
-
 ;; Request a loan with collateral
 (define-public (request-loan (loan-amount uint) (collateral-amount uint))
   (let ((caller tx-sender)

@@ -259,7 +259,6 @@
     ERR_LOAN_NOT_FOUND
   )
 )
-
 ;; Get platform statistics
 (define-read-only (get-platform-stats)
   (ok {

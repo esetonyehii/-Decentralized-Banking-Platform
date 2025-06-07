@@ -160,7 +160,6 @@
       deposit-timestamp: (get deposit-timestamp sender-account),
       is-active: true
     })
-    
     ;; Update recipient balance
     (map-set user-accounts recipient {
       balance: (+ (get balance recipient-account) amount),
